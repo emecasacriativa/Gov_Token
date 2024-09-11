@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web.UI
+build_property.RootNamespace = Web.UI
+build_property.ProjectDir = /home/marlacabral/GovToken/Web.UI/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /home/marlacabral/GovToken/Web.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/AgentesFederados/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnRlc0ZlZGVyYWRvcy9DYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/AgentesFederados/Extrato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnRlc0ZlZGVyYWRvcy9FeHRyYXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/AgentesFederados/Transferir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbnRlc0ZlZGVyYWRvcy9UcmFuc2ZlcmlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Fornecedores/AprovarCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0Fwcm92YXJDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Fornecedores/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0NhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Fornecedores/Extrato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0V4dHJhdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Fornecedores/PainelServicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL1BhaW5lbFNlcnZpY29zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/GovernoFederal/DepositoContaLastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR292ZXJub0ZlZGVyYWwvRGVwb3NpdG9Db250YUxhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/GovernoFederal/ExtratoContaLastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR292ZXJub0ZlZGVyYWwvRXh0cmF0b0NvbnRhTGFzdHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/GovernoFederal/TransferirContaLastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR292ZXJub0ZlZGVyYWwvVHJhbnNmZXJpckNvbnRhTGFzdHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/PainelServicos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFpbmVsU2Vydmljb3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Secretarias/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VjcmV0YXJpYXMvQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Secretarias/Extrato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VjcmV0YXJpYXMvRXh0cmF0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Secretarias/SolicitarServico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VjcmV0YXJpYXMvU29saWNpdGFyU2Vydmljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marlacabral/GovToken/Web.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

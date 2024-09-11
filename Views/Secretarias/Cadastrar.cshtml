@@ -1,0 +1,83 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts {
+    <script src="~/js/contratos/agenteFederado.js?v=@(JavascriptHelper.Versao)"></script>
+    <script src="~/js/modulos/secretaria/cadastrar.js?v=@(JavascriptHelper.Versao)"></script>
+}
+
+<div id="ribbon">
+    <ol class="breadcrumb">
+        <li>Início</li>
+        <li>Secretarias</li>
+        <li>Cadastrar Secretaria</li>
+    </ol>
+</div>
+
+<div id="content">
+    <section id="widget-grid" class="">
+
+        <div class="row">
+            <article class="col-sm-12 col-md-12 col-lg-6">
+
+                <div class="jarviswidget" id="wid-id-1" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-custombutton="false"
+                     data-widget-deletebutton="false" data-widget-fullscreenbutton="false" data-widget-collapsed="false"
+                     data-widget-sortable="false">
+
+                    <header>
+                        <span class="widget-icon"><i class="fa fa-edit"></i></span>
+                        <h2>Cadastrar Secretaria</h2>
+                    </header>
+
+                    <div id="dados_cadastrais">
+                        <div class="widget-body no-padding">
+                            <div class="smart-form">
+                                <form id="cadastrarSecretariaForm" name="cadastrarSecretariaForm">
+                                    <fieldset>
+                                        <section>
+                                            <div class="row">
+                                                <div class="col col-12 col-sm-12">
+                                                    <label class="label">Agente Federado:</label>
+                                                    <label class="input">
+                                                        <input id="ttbAgenteFederado" type="text" readonly />
+                                                    </label>
+                                                </div>
+
+                                                <div class="col col-12 col-sm-12">
+                                                    <label class="label">Descrição:</label>
+                                                    <label class="input">
+                                                        <input name="descricao" type="text" id="descricao" required />
+                                                    </label>
+                                                </div>
+
+                                                <div class="col col-12 col-sm-12">
+                                                    <label class="label">Endereço Carteira:</label>
+                                                    <label class="input">
+                                                        <input name="enderecoCarteira" type="text" id="enderecoCarteira" required />
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </section>
+
+                                    </fieldset>
+                                    <footer style="margin-top: 20px;">
+                                        <button type="submit" name="btn-salvar" id="btn-salvar" class="btn btn-primary">
+                                            Cadastrar
+                                        </button>
+                                        <button type="button" class="btn btn-default" onclick="window.location='/';">
+                                            Cancelar
+                                        </button>
+                                    </footer>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</div>
+
+

@@ -1,0 +1,67 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts {
+    <script src="~/js/contratos/contalastro.js?v=@(JavascriptHelper.Versao)"></script>
+    <script src="~/js/modulos/governofederal/depositoContalastro.js?v=@(JavascriptHelper.Versao)"></script>
+}
+
+<div id="ribbon">
+    <ol class="breadcrumb">
+        <li>Início</li>
+        <li>Conta Lastro Governo</li>
+        <li>Depositar</li>
+    </ol>
+</div>
+
+<div id="content">
+    <section id="widget-grid" class="">
+
+        <div class="row">
+            <article class="col-sm-12 col-md-12 col-lg-6">
+
+                <div class="jarviswidget" id="wid-id-1" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-custombutton="false"
+                     data-widget-deletebutton="false" data-widget-fullscreenbutton="false" data-widget-collapsed="false"
+                     data-widget-sortable="false">
+
+                    <header>
+                        <span class="widget-icon"><i class="fa fa-edit"></i></span>
+                        <h2>Depósito Conta Lastro</h2>
+                    </header>
+
+                    <div id="dados_cadastrais">
+                        <div class="widget-body no-padding">
+                            <div class="smart-form">
+                                <form id="depositoForm" name="depositoForm">
+                                    <fieldset>
+                                        <section>
+                                            <input name="Id" type="hidden" id="id-ativo" />
+                                            <label class="label">Valor do Depósito:</label>
+                                            <label class="input">
+                                                <input name="valor" type="number" id="valor" min="0.01" step=".01" required />
+                                            </label>
+                                        </section>
+                                    </fieldset>
+                                    <footer style="margin-top: 20px;">
+                                        <button type="submit" name="btn-salvar" id="btn-salvar" class="btn btn-primary">
+                                            Depositar
+                                        </button>
+
+                                        <button type="button" class="btn btn-default" onclick="window.location='/';">
+                                            Cancelar
+                                        </button>
+                                    </footer>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+        </div>
+    </section>
+</div>
+
+

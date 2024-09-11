@@ -1,0 +1,83 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts {
+    <script src="~/js/contratos/agenteFederado.js?v=@(JavascriptHelper.Versao)"></script>
+    <script src="~/js/contratos/govToken.js?v=@(JavascriptHelper.Versao)"></script>
+    <script src="~/js/modulos/secretaria/extrato.js?v=@(JavascriptHelper.Versao)"></script>
+}
+
+<div id="ribbon">
+    <ol class="breadcrumb">
+        <li>Início</li>
+        <li>Secretarias</li>
+        <li>Extrato</li>
+    </ol>
+</div>
+
+<div id="content">
+    <section id="widget-grid" class="">
+
+        <div class="row">
+            <article class="col-sm-12 col-md-12 col-lg-6" id="extrato">
+
+                <div class="jarviswidget" id="wid-id-extrato" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-custombutton="false"
+                     data-widget-deletebutton="false" data-widget-fullscreenbutton="false" data-widget-collapsed="false"
+                     data-widget-sortable="false">
+
+                    <header>
+                        <span class="widget-icon"><i class="fa fa-calendar"></i></span>
+                        <h2>Extrato</h2>
+                    </header>
+
+                    <div>
+                        <div class="widget-body no-padding">
+                            <div class="smart-form">
+                                <fieldset>
+                                    <section>
+                                        <div class="row">
+                                            <div class="col col-12 col-sm-12">
+                                                <label class="label">Agente Federado:</label>
+                                                <select class="form-control" id="ddlAgenteFederado" name="ddlAgenteFederado" required>
+                                                    <option value="">Selecione</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col col-12 col-sm-12">
+                                                <label class="label">Secretaria:</label>
+                                                <select class="form-control" id="ddlSecretaria" name="ddlSecretaria" required disabled>
+                                                    <option value="">Selecione</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </fieldset>
+                            </div>
+                            <div class="smart-form table-responsive" style="padding: 15px; width: auto">
+                                <div>
+                                    <span id="spSaldo" style="font-weight: bold;"></span>
+                                    <table id="tblExtrato" class="table table-bordered table-striped" cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+                                        <thead>
+                                            <tr class="header" style="height:5px !important;">
+                                                <th class="text-center" scope="col">Data</th>
+                                                <th class="text-center" scope="col">Descrição</th>
+                                                <th class="text-center" scope="col">Valor</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+        </div>
+    </section>
+</div>
+
+

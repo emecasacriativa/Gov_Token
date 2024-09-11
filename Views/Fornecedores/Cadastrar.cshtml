@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts {
+    <script src="~/js/contratos/fornecedor.js?v=@(JavascriptHelper.Versao)"></script>
+    <script src="~/js/modulos/fornecedor/cadastrar.js?v=@(JavascriptHelper.Versao)"></script>
+}
+
+<div id="ribbon">
+    <ol class="breadcrumb">
+        <li>Início</li>
+        <li>Fornecedor</li>
+        <li>Cadastrar</li>
+    </ol>
+</div>
+
+<div id="content">
+    <section id="widget-grid" class="">
+
+        <div class="row">
+            <article class="col-sm-12 col-md-12 col-lg-6">
+
+                <div class="jarviswidget" id="wid-id-1" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-custombutton="false"
+                     data-widget-deletebutton="false" data-widget-fullscreenbutton="false" data-widget-collapsed="false"
+                     data-widget-sortable="false">
+
+                    <header>
+                        <span class="widget-icon"><i class="fa fa-edit"></i></span>
+                        <h2>Cadastrar Fornecedor</h2>
+                    </header>
+
+                    <div id="dados_cadastrais">
+                        <div class="widget-body no-padding">
+                            <div class="smart-form">
+                                <form id="cadastrarFornecedorForm" name="cadastrarFornecedorForm">
+                                    <fieldset>
+                                        <section>
+                                            <div class="row">
+                                                <div class="col col-12 col-sm-12">
+                                                    <label class="label">Estado:</label>
+                                                    <select class="form-control" id="ddlUf" name="uf" required>
+                                                            <option value="">Selecione</option>
+                                                            <option value="AC">Acre</option>
+                                                            <option value="AL">Alagoas</option>
+                                                            <option value="AP">Amapá</option>
+                                                            <option value="AM">Amazonas</option>
+                                                            <option value="BA">Bahia</option>
+                                                            <option value="CE">Ceará</option>
+                                                            <option value="DF">Distrito Federal</option>
+                                                            <option value="ES">Espirito Santo</option>
+                                                            <option value="GO">Goiás</option>
+                                                            <option value="MA">Maranhão</option>
+                                                            <option value="MS">Mato Grosso do Sul</option>
+                                                            <option value="MT">Mato Grosso</option>
+                                                            <option value="MG">Minas Gerais</option>
+                                                            <option value="PA">Pará</option>
+                                                            <option value="PB">Paraíba</option>
+                                                            <option value="PR">Paraná</option>
+                                                            <option value="PE">Pernambuco</option>
+                                                            <option value="PI">Piauí</option>
+                                                            <option value="RJ">Rio de Janeiro</option>
+                                                            <option value="RN">Rio Grande do Norte</option>
+                                                            <option value="RS">Rio Grande do Sul</option>
+                                                            <option value="RO">Rondônia</option>
+                                                            <option value="RR">Roraima</option>
+                                                            <option value="SC">Santa Catarina</option>
+                                                            <option value="SP">São Paulo</option>
+                                                            <option value="SE">Sergipe</option>
+                                                            <option value="TO">Tocantins</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col col-12 col-sm-12">
+                                                    <label class="label">Nome:</label>
+                                                    <label class="input">
+                                                        <input name="nome" type="text" id="nome" required/>
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </section>
+
+                                    </fieldset>
+                                    <footer style="margin-top: 20px;">
+                                        <button type="submit" name="btn-salvar" id="btn-salvar" class="btn btn-primary">
+                                            Cadastrar
+                                        </button>
+
+                                        <button type="button" class="btn btn-default" onclick="window.location='/';">
+                                            Cancelar
+                                        </button>
+                                    </footer>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+    </section>
+</div>
+
+
